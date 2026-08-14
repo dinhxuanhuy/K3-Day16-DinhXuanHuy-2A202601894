@@ -1,0 +1,24 @@
+{
+  "dataset": {
+    "rows": 284807,
+    "features": 31
+  },
+  "timing": {
+    "load_time_seconds": 3.255342,
+    "training_time_seconds": 9.222026
+  },
+  "metrics": {
+    "auc_roc": 0.877577,
+    "accuracy": 0.998648,
+    "f1_score": 0.638498,
+    "precision": 0.591304,
+    "recall": 0.693878
+  },
+  "inference": {
+    "single_row_latency_ms": 2.273333,
+    "batch_size": 1000,
+    "batch_inference_time_seconds": 0.011733,
+    "throughput_samples_per_second": 85232.44
+  },
+  "best_iteration": null
+}
